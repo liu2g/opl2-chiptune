@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 8bit)(type Legacy)(uri ${KIPRJMOD}/8bit.lib)(options "")(descr ""))
+)
