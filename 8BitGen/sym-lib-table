@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 8bit)(type Legacy)(uri ${KIPRJMOD}/8bit.lib)(options "")(descr ""))
+  (lib (name 8BitGen-rescue)(type Legacy)(uri ${KIPRJMOD}/8BitGen-rescue.lib)(options "")(descr ""))
 )

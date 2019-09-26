@@ -411,17 +411,6 @@ F 3 "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-51P
 	1    5050 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H?
-U 1 1 5D846A37
-P 4650 4850
-F 0 "H?" V 4800 4900 50  0000 C CNN
-F 1 "MountingHole_Pad" V 4500 5050 50  0000 C CNN
-F 2 "" H 4650 4850 50  0001 C CNN
-F 3 "~" H 4650 4850 50  0001 C CNN
-	1    4650 4850
-	0    -1   -1   0   
-$EndComp
 Text GLabel 5050 4550 1    50   Input ~ 0
 +5V
 $Comp
@@ -553,4 +542,5 @@ Wire Notes Line
 	4050 750  4050 5450
 Text Notes 4100 900  0    50   ~ 0
 CLK
+NoConn ~ 4750 4850
 $EndSCHEMATC
