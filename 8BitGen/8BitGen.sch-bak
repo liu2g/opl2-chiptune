@@ -63,7 +63,7 @@ DAC_CLK
 Text GLabel 7900 1250 2    50   Input ~ 0
 358_CLK
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D7F7E73
 P 6900 2350
 F 0 "#PWR?" H 6900 2100 50  0001 C CNN
@@ -95,7 +95,7 @@ BUFF
 Text GLabel 10250 1600 2    50   Output ~ 0
 DAC_CLK
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D7FBCB8
 P 10750 1500
 F 0 "#PWR?" H 10750 1250 50  0001 C CNN
@@ -112,7 +112,7 @@ DAC_RB
 Text GLabel 10250 1300 2    50   Output ~ 0
 DAC_MP
 $Comp
-L Amplifier_Operational:LM358 U?
+L 8BitGen-rescue:LM358-Amplifier_Operational U?
 U 1 1 5D807C96
 P 8100 4050
 F 0 "U?" H 8100 4417 50  0000 C CNN
@@ -123,7 +123,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8100 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U?
+L 8BitGen-rescue:LM358-Amplifier_Operational U?
 U 2 1 5D80996C
 P 8150 4850
 F 0 "U?" H 8150 5217 50  0000 C CNN
@@ -134,7 +134,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8150 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U?
+L 8BitGen-rescue:LM358-Amplifier_Operational U?
 U 3 1 5D80E8AF
 P 6850 4400
 F 0 "U?" H 6808 4446 50  0000 L CNN
@@ -145,7 +145,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D81F6B2
 P 6750 4700
 F 0 "#PWR?" H 6750 4450 50  0001 C CNN
@@ -191,7 +191,7 @@ Wire Notes Line
 Text Notes 6500 900  0    50   ~ 0
 FM Sound Generator
 $Comp
-L Connector:AudioJack3 J?
+L 8BitGen-rescue:AudioJack3-Connector J?
 U 1 1 5D8341C3
 P 9600 4050
 F 0 "J?" H 9582 4375 50  0000 C CNN
@@ -219,7 +219,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 3950 10500 4200
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D8369BC
 P 10500 4200
 F 0 "#PWR?" H 10500 3950 50  0001 C CNN
@@ -232,7 +232,7 @@ $EndComp
 Text Notes 6500 3600 0    50   ~ 0
 Analog Audio Output
 $Comp
-L Device:CP1_Small C?
+L 8BitGen-rescue:CP1_Small-Device C?
 U 1 1 5D83A523
 P 7550 5400
 F 0 "C?" H 7300 5450 50  0000 L CNN
@@ -243,7 +243,7 @@ F 3 "~" H 7550 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C?
+L 8BitGen-rescue:CP1_Small-Device C?
 U 1 1 5D83AB0C
 P 7750 5400
 F 0 "C?" H 7841 5446 50  0000 L CNN
@@ -271,7 +271,7 @@ Connection ~ 7750 5150
 Wire Wire Line
 	7550 4750 7550 5300
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D83F870
 P 7550 5500
 F 0 "#PWR?" H 7550 5250 50  0001 C CNN
@@ -282,7 +282,7 @@ F 3 "" H 7550 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D83FFEA
 P 7750 5500
 F 0 "#PWR?" H 7750 5250 50  0001 C CNN
@@ -301,7 +301,7 @@ Wire Notes Line
 Wire Notes Line
 	6450 5800 10700 5800
 $Comp
-L 74xx:74HC595 U?
+L 8BitGen-rescue:74HC595-74xx U?
 U 1 1 5D826549
 P 2250 1800
 F 0 "U?" H 2600 2600 50  0000 C CNN
@@ -331,7 +331,7 @@ NoConn ~ 2650 2300
 Text GLabel 1850 1400 0    50   Input ~ 0
 SERIAL_IN
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D82C7F5
 P 2250 2500
 F 0 "#PWR?" H 2250 2250 50  0001 C CNN
@@ -346,7 +346,7 @@ Text GLabel 2250 1200 1    50   Input ~ 0
 Text GLabel 1850 1700 0    50   Input ~ 0
 +5V
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D82D34B
 P 1850 2000
 F 0 "#PWR?" H 1850 1750 50  0001 C CNN
@@ -378,7 +378,7 @@ NoConn ~ 5300 2550
 Text GLabel 4900 1050 1    50   Input ~ 0
 +5V
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D83E7BA
 P 4900 3300
 F 0 "#PWR?" H 4900 3050 50  0001 C CNN
@@ -401,7 +401,7 @@ REG_CLK
 Text Notes 1150 3500 0    50   ~ 0
 SRCLK (Serial Clock) When this pin is pulled high, it will \nshift the register.\n\nRCLK (Register Clock) As long as this pin is hold low, the\ndata is kept in the buffer; when pulled high, buffered data\nis stored in the storage register, and outputted to QA-H.\n\nIf both clks are connected together, the shift register is \none clock pulse ahead of the storage register.
 $Comp
-L Oscillator:SG-531 X?
+L 8BitGen-rescue:SG-531-Oscillator X?
 U 1 1 5D8454D8
 P 5050 4850
 F 0 "X?" H 5300 5250 50  0000 L CNN
@@ -414,7 +414,7 @@ $EndComp
 Text GLabel 5050 4550 1    50   Input ~ 0
 +5V
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D847A96
 P 5050 5150
 F 0 "#PWR?" H 5050 4900 50  0001 C CNN
@@ -435,7 +435,7 @@ NoConn ~ 5300 1550
 Text GLabel 1400 4650 1    50   Input ~ 0
 +5V
 $Comp
-L Device:CP1_Small C?
+L 8BitGen-rescue:CP1_Small-Device C?
 U 1 1 5D8510D1
 P 1400 4750
 F 0 "C?" H 1150 4800 50  0000 L CNN
@@ -446,7 +446,7 @@ F 3 "~" H 1400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D8519C0
 P 1400 4850
 F 0 "#PWR?" H 1400 4600 50  0001 C CNN
@@ -457,7 +457,7 @@ F 3 "" H 1400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x07_Male J?
+L 8BitGen-rescue:Conn_01x07_Male-Connector J?
 U 1 1 5D852FCC
 P 2650 4700
 F 0 "J?" H 2300 4800 50  0000 C CNN
@@ -474,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4400 2900 4350
 $Comp
-L power:GND #PWR?
+L 8BitGen-rescue:GND-power #PWR?
 U 1 1 5D857484
 P 3400 4550
 F 0 "#PWR?" H 3400 4300 50  0001 C CNN
