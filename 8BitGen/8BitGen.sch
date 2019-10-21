@@ -20,7 +20,7 @@ U 1 1 5D7F085F
 P 7400 1700
 F 0 "U4" H 7400 2415 50  0000 C CNN
 F 1 "YM3812" H 7400 2324 50  0000 C CNN
-F 2 "" H 7400 1700 50  0001 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm" H 7400 1700 50  0001 C CNN
 F 3 "" H 7400 1700 50  0001 C CNN
 	1    7400 1700
 	1    0    0    -1  
@@ -79,7 +79,7 @@ U 1 1 5D7F95A1
 P 9750 1450
 F 0 "U5" H 9750 1865 50  0000 C CNN
 F 1 "YM3014B" H 9750 1774 50  0000 C CNN
-F 2 "" H 9750 1750 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 9750 1750 50  0001 C CNN
 F 3 "" H 9750 1750 50  0001 C CNN
 	1    9750 1450
 	1    0    0    -1  
@@ -117,7 +117,7 @@ U 1 1 5D807C96
 P 8100 4050
 F 0 "U3" H 8100 4417 50  0000 C CNN
 F 1 "LM358" H 8100 4326 50  0000 C CNN
-F 2 "" H 8100 4050 50  0001 C CNN
+F 2 "Package_DIP:DIP-8-16_W7.62mm" H 8100 4050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8100 4050 50  0001 C CNN
 	1    8100 4050
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 2 1 5D80996C
 P 8150 4850
 F 0 "U3" H 8150 5217 50  0000 C CNN
 F 1 "LM358" H 8150 5126 50  0000 C CNN
-F 2 "" H 8150 4850 50  0001 C CNN
+F 2 "Package_DIP:DIP-8-16_W7.62mm" H 8150 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8150 4850 50  0001 C CNN
 	2    8150 4850
 	1    0    0    -1  
@@ -139,7 +139,7 @@ U 3 1 5D80E8AF
 P 6850 4400
 F 0 "U3" H 6808 4446 50  0000 L CNN
 F 1 "LM358" H 6808 4355 50  0000 L CNN
-F 2 "" H 6850 4400 50  0001 C CNN
+F 2 "Package_DIP:DIP-8-16_W7.62mm" H 6850 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6850 4400 50  0001 C CNN
 	3    6850 4400
 	1    0    0    -1  
@@ -191,11 +191,11 @@ Wire Notes Line
 Text Notes 6500 900  0    50   ~ 0
 FM Sound Generator
 $Comp
-L 8BitGen-rescue:AudioJack3-Connector J2
+L 8BitGen-rescue:AudioJack3-Connector J3
 U 1 1 5D8341C3
 P 9600 4050
-F 0 "J2" H 9582 4375 50  0000 C CNN
-F 1 "AudioJack3" H 9582 4284 50  0000 C CNN
+F 0 "J3" H 9582 4375 50  0000 C CNN
+F 1 "TRS" H 9582 4284 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal" H 9600 4050 50  0001 C CNN
 F 3 "~" H 9600 4050 50  0001 C CNN
 	1    9600 4050
@@ -306,7 +306,7 @@ U 1 1 5D826549
 P 2250 1800
 F 0 "U1" H 2600 2600 50  0000 C CNN
 F 1 "74HC595" H 2600 2500 50  0000 C CNN
-F 2 "" H 2250 1800 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2250 1800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 2250 1800 50  0001 C CNN
 	1    2250 1800
 	1    0    0    -1  
@@ -366,7 +366,7 @@ U 1 1 5D83BF16
 P 4900 2200
 F 0 "U2" H 5250 3550 50  0000 C CNN
 F 1 "SN7404N" H 5250 3400 50  0000 C CNN
-F 2 "" H 4900 2100 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4900 2100 50  0001 C CNN
 F 3 "" H 4900 2100 50  0001 C CNN
 	1    4900 2200
 	1    0    0    -1  
@@ -456,17 +456,6 @@ F 3 "" H 1400 4850 50  0001 C CNN
 	1    1400 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L 8BitGen-rescue:Conn_01x07_Male-Connector J1
-U 1 1 5D852FCC
-P 2650 4700
-F 0 "J1" H 2400 5300 50  0000 C CNN
-F 1 "Conn_01x07_Male" H 2400 5150 50  0000 C CNN
-F 2 "" H 2650 4700 50  0001 C CNN
-F 3 "~" H 2650 4700 50  0001 C CNN
-	1    2650 4700
-	1    0    0    -1  
-$EndComp
 Text GLabel 2900 4350 1    50   Input ~ 0
 +5V
 Wire Wire Line
@@ -497,8 +486,6 @@ SERIAL_CLK
 Text GLabel 2850 5000 2    50   Input ~ 0
 YM_RST_N
 Wire Wire Line
-	2850 4500 3400 4500
-Wire Wire Line
 	3400 4500 3400 4550
 Wire Notes Line
 	8550 750  8550 3150
@@ -523,15 +510,9 @@ Wire Notes Line
 Text Notes 1050 900  0    50   ~ 0
 Shift Register
 Wire Notes Line
-	1000 3850 1000 5200
-Wire Notes Line
-	1000 5200 3550 5200
-Wire Notes Line
-	3550 5200 3550 3850
-Wire Notes Line
 	3550 3850 1000 3850
 Text Notes 1100 4000 0    50   ~ 0
-Power & Input Pins
+Power & Input Pins & Pads
 Wire Notes Line
 	4050 5450 5950 5450
 Wire Notes Line
@@ -545,4 +526,52 @@ CLK
 NoConn ~ 4750 4850
 Text Notes 2600 5000 2    50   ~ 0
 WHITE\nYELLOW\nORANGE\nBLUE\nBLK
+$Comp
+L Connector:Conn_01x07_Female J1
+U 1 1 5D852FCC
+P 2650 4700
+F 0 "J1" H 2900 4350 50  0000 C CNN
+F 1 "Input Header" H 3050 4450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 2650 4700 50  0001 C CNN
+F 3 "~" H 2650 4700 50  0001 C CNN
+	1    2650 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 4500 3400 4500
+Text GLabel 2150 5950 0    50   Input ~ 0
+REG_CLK
+Text GLabel 2150 5850 0    50   Input ~ 0
+358_CLK
+Text GLabel 2150 5750 0    50   Input ~ 0
+DAC_CLK
+Text GLabel 2150 5250 0    50   Input ~ 0
+D_SOUND
+Text GLabel 2150 5650 0    50   Input ~ 0
+SYNC
+Text GLabel 2150 5350 0    50   Input ~ 0
+BUFF
+Text GLabel 2150 5450 0    50   Input ~ 0
+DAC_RB
+Text GLabel 2150 5550 0    50   Input ~ 0
+DAC_MP
+Text GLabel 2150 5150 0    50   Input ~ 0
+AUDIO_LINE
+$Comp
+L Connector:Conn_01x09_Female J2
+U 1 1 5DAE98C6
+P 2350 5550
+F 0 "J2" H 2378 5576 50  0000 L CNN
+F 1 "Thru Hole Pads" H 2378 5485 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 2350 5550 50  0001 C CNN
+F 3 "~" H 2350 5550 50  0001 C CNN
+	1    2350 5550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1000 6100 3550 6100
+Wire Notes Line
+	1000 3850 1000 6100
+Wire Notes Line
+	3550 3850 3550 6100
 $EndSCHEMATC
