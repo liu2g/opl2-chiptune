@@ -117,7 +117,7 @@ U 1 1 5D807C96
 P 8100 4050
 F 0 "U3" H 8100 4417 50  0000 C CNN
 F 1 "LM358" H 8100 4326 50  0000 C CNN
-F 2 "Package_DIP:DIP-8-16_W7.62mm" H 8100 4050 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8100 4050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8100 4050 50  0001 C CNN
 	1    8100 4050
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 2 1 5D80996C
 P 8150 4850
 F 0 "U3" H 8150 5217 50  0000 C CNN
 F 1 "LM358" H 8150 5126 50  0000 C CNN
-F 2 "Package_DIP:DIP-8-16_W7.62mm" H 8150 4850 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 8150 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 8150 4850 50  0001 C CNN
 	2    8150 4850
 	1    0    0    -1  
@@ -139,7 +139,7 @@ U 3 1 5D80E8AF
 P 6850 4400
 F 0 "U3" H 6808 4446 50  0000 L CNN
 F 1 "LM358" H 6808 4355 50  0000 L CNN
-F 2 "Package_DIP:DIP-8-16_W7.62mm" H 6850 4400 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6850 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 6850 4400 50  0001 C CNN
 	3    6850 4400
 	1    0    0    -1  

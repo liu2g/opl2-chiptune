@@ -563,7 +563,7 @@ U 1 1 5DAE98C6
 P 2350 5550
 F 0 "J2" H 2378 5576 50  0000 L CNN
 F 1 "Thru Hole Pads" H 2378 5485 50  0000 L CNN
-F 2 "" H 2350 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 2350 5550 50  0001 C CNN
 F 3 "~" H 2350 5550 50  0001 C CNN
 	1    2350 5550
 	1    0    0    -1  
