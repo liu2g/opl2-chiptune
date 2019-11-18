@@ -532,14 +532,14 @@ U 1 1 5D852FCC
 P 2650 4700
 F 0 "J1" H 2900 4350 50  0000 C CNN
 F 1 "Input Header" H 3050 4450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 2650 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 2650 4700 50  0001 C CNN
 F 3 "~" H 2650 4700 50  0001 C CNN
 	1    2650 4700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2850 4500 3400 4500
-Text GLabel 2150 5950 0    50   Input ~ 0
+Text GLabel 2150 5150 0    50   Input ~ 0
 REG_CLK
 Text GLabel 2150 5850 0    50   Input ~ 0
 358_CLK
@@ -555,7 +555,7 @@ Text GLabel 2150 5450 0    50   Input ~ 0
 DAC_RB
 Text GLabel 2150 5550 0    50   Input ~ 0
 DAC_MP
-Text GLabel 2150 5150 0    50   Input ~ 0
+Text GLabel 2150 5950 0    50   Input ~ 0
 AUDIO_LINE
 $Comp
 L Connector:Conn_01x09_Female J2
